@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Liste au Père Noël</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ma Liste au Père Noël</h1>
+        <p>Voici mes souhaits pour Noël cette année !</p>
+    </header>
+
+    <section class="list">
+        <h2>Mes Cadeaux</h2>
+        <ul>
+            <li>
+                Une trottinette électrique 
+                <button class="gift-button" onclick="openLink('https://www.exemple.com/trottinette-electrique')">Voir</button>
+            </li>
+            <li>
+                Un drone avec caméra
+                <button class="gift-button" onclick="openLink('https://www.exemple.com/drone-cam')">Voir</button>
+            </li>
+            <li>
+                Un livre sur l'espace
+                <button class="gift-button" onclick="openLink('https://www.exemple.com/livre-espace')">Voir</button>
+            </li>
+            <li>
+                Un jeu vidéo Nintendo Switch
+                <button class="gift-button" onclick="openLink('https://www.exemple.com/jeu-video-switch')">Voir</button>
+            </li>
+            <li>
+                Un pull de Noël avec des rennes
+                <button class="gift-button" onclick="openLink('https://www.exemple.com/pull-noel-rennes')">Voir</button>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Fait avec amour pour le Père Noël 🎅</p>
+    </footer>
+
+    <script>
+        function openLink(url) {
+            window.open(url, '_blank');  // Ouvre le lien dans un nouvel onglet
+        }
+    </script>
+</body>
+</html>
